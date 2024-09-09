@@ -555,7 +555,16 @@ body {
     color: #6c757d;
 }
 
+@media (max-width: 576px) {
+    .responsive-container.d-flex.justify-content-between {
+      flex-direction: column;
+      align-items: flex-start;
+    }
 
+    .sosial-share {
+      margin-top: 10px;
+    }
+  }
 /* endsection1 */
 @media (max-width: 768px) {
     body {
